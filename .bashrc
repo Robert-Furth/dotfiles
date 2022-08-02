@@ -118,3 +118,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export LESS='--mouse --wheel-lines=4'
